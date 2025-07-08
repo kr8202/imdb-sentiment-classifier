@@ -1,58 +1,86 @@
-IMDb Movie Reviews Sentiment Analysis
+# 🎬 IMDb Movie Reviews Sentiment Analysis
 
-This project demonstrates the application of Natural Language Processing (NLP) and supervised machine learning techniques to classify movie reviews from IMDb as positive or negative. The goal is to build reliable sentiment classifiers using text data and evaluate their performance.
+This project demonstrates the application of **Natural Language Processing (NLP)** and **machine learning** techniques to classify IMDb movie reviews as **positive** or **negative**. It highlights the use of classical ML algorithms with feature extraction and evaluation metrics to analyze sentiment from unstructured text.
 
-📌 Project Objective
+---
 
-To develop, train, and evaluate machine learning models capable of predicting sentiment polarity (positive or negative) based on IMDb movie review texts. This project aims to showcase how textual data can be preprocessed and modeled using classical ML techniques for real-world applications.
+## 📌 Objective
 
-🧰 Technologies & Tools Used
-Language: Python
+Build and evaluate machine learning models capable of predicting the sentiment polarity of movie reviews using NLP preprocessing and structured classification approaches.
 
-Libraries & Frameworks:
+---
 
-pandas, numpy – Data manipulation
-nltk – Text preprocessing (tokenization, stopword removal, stemming)
-scikit-learn – Feature extraction, model training, and evaluation
-matplotlib, seaborn – Data visualization
+## 🧰 Tools & Technologies
 
-⚙️ Methodology
-Data Preprocessing
-Removed noise and HTML tags from text
-Tokenized sentences
-Removed stopwords
-Applied stemming using NLTK
-Feature Extraction
-Used TF-IDF Vectorization to convert text into a numerical format
-Also experimented with Word2Vec embeddings (optional)
-Model Training
+- **Language:** Python
+- **Libraries:**
+  - `pandas`, `numpy` – data handling
+  - `nltk` – text preprocessing
+  - `scikit-learn` – feature extraction, model training, and evaluation
+  - `matplotlib`, `seaborn` – visualization
 
-Trained multiple classification models:
+---
 
-- Logistic Regression
-- Naive Bayes
-- Random Forest
-- Model Evaluation
+## ⚙️ Methodology
 
-Used accuracy, precision, recall, and F1-score to evaluate performance
-Visualized results with a confusion matrix and metric comparison charts
+1. **Text Preprocessing**
+   - Cleaning, tokenization, stopword removal, and stemming
+2. **Feature Extraction**
+   - TF-IDF Vectorization
+   - Word2Vec embeddings (optional extension)
+3. **Model Training**
+   - Logistic Regression
+   - Naive Bayes
+   - Random Forest
+4. **Evaluation**
+   - Accuracy, precision, recall, F1-score
+   - Confusion matrix and result visualization
 
-📊 Results
-Achieved high sentiment classification accuracy across models
-Logistic Regression and Naive Bayes provided consistent results with clean TF-IDF features
+---
 
-Folder Structure:
-├── Imdb.ipynb                   # Main Jupyter Notebook containing the entire workflow
-├── README.md                    # Project documentation and overview
-├── requirements.txt             # Python libraries and dependencies (optional)
-└── data/                        # IMDb dataset directory (can be downloaded from Kaggle)
+## 📊 Results
 
-📥 Dataset Source:
-IMDb Review Dataset available on Kaggle
-🔗 https://www.kaggle.com/datasets/c134koyenaroy/imdb-review-dataset
-Word2Vec added semantic value but required more computational resources
+- Models successfully classified review sentiment with high accuracy
+- TF-IDF + Logistic Regression and Naive Bayes yielded the most consistent results
+- Visualizations provided clear insight into performance differences
 
-🔍 Key Learnings
-Preprocessing significantly impacts model performance in NLP tasks
-Classical ML models can perform well on sentiment tasks with clean data and proper feature extraction
-TF-IDF is effective and interpretable for text classification the dataset: https://www.kaggle.com/datasets/c134koyenaroy/imdb-review-dataset 
+---
+
+## 📂 Folder Structure
+
+├── Imdb.ipynb # Main Jupyter Notebook
+├── README.md # Project documentation
+├── requirements.txt # Dependencies (optional)
+└── data/ # Dataset directory (external link below)
+
+
+---
+
+## 📥 Dataset
+
+Dataset used in this project:  
+🔗 [IMDb Review Dataset – Kaggle](https://www.kaggle.com/datasets/c134koyenaroy/imdb-review-dataset)
+
+---
+
+## 🚀 Future Improvements
+
+- Compare results with deep learning models like LSTM or BERT
+- Add lemmatization and NER for improved text cleaning
+- Build a Streamlit app for real-time sentiment prediction
+
+---
+
+## 📎 Applications
+
+- Customer feedback analysis  
+- Social media monitoring  
+- Product review classification  
+- Automated content moderation
+
+---
+
+## 🤝 Let's Connect
+
+If you found this project useful or have suggestions for improvement, feel free to fork, star ⭐, or connect with me on [LinkedIn](https://www.linkedin.com/in/your-link-here).
+
