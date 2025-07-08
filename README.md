@@ -82,8 +82,3 @@ Dataset used in this project:
 
 If you found this project useful or have suggestions for improvement, feel free to fork, star ⭐, or connect with me on [LinkedIn](https://www.linkedin.com/in/koyena-roy-81b739211/).
 
-
-## 🤝 Let's Connect
-
-If you found this project useful or have suggestions for improvement, feel free to fork, star ⭐, or connect with me on [LinkedIn]([https://www.linkedin.com/in/koyena-roy-81b739211/]).
-
