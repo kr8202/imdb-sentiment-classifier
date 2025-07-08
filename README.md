@@ -41,15 +41,12 @@ Visualized results with a confusion matrix and metric comparison charts
 Achieved high sentiment classification accuracy across models
 Logistic Regression and Naive Bayes provided consistent results with clean TF-IDF features
 
-
-📂 Folder Structure
-graphql
-Copy
-Edit
+Folder Structure:
 ├── Imdb.ipynb                   # Main Jupyter Notebook containing the entire workflow
 ├── README.md                    # Project documentation and overview
 ├── requirements.txt             # Python libraries and dependencies (optional)
 └── data/                        # IMDb dataset directory (can be downloaded from Kaggle)
+
 📥 Dataset Source:
 IMDb Review Dataset available on Kaggle
 🔗 https://www.kaggle.com/datasets/c134koyenaroy/imdb-review-dataset
