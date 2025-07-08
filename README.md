@@ -1,7 +1,9 @@
 IMDb Movie Reviews Sentiment Analysis
+
 This project demonstrates the application of Natural Language Processing (NLP) and supervised machine learning techniques to classify movie reviews from IMDb as positive or negative. The goal is to build reliable sentiment classifiers using text data and evaluate their performance.
 
 📌 Project Objective
+
 To develop, train, and evaluate machine learning models capable of predicting sentiment polarity (positive or negative) based on IMDb movie review texts. This project aims to showcase how textual data can be preprocessed and modeled using classical ML techniques for real-world applications.
 
 🧰 Technologies & Tools Used
